@@ -1,0 +1,396 @@
+
+body
+{
+    background-color: rgb(181, 182, 227);
+}
+
+#logo
+{
+    display: block;
+    margin-left: 0px;
+    height: 3cm;
+    width: 3cm;
+}
+
+.header
+{
+    background-color: rgb(7, 7, 74);
+    overflow: hidden;
+    height: 200px;
+}
+
+.column2
+{
+    float: left;
+    padding: 30px;
+    height: 100px;
+    width: 33.33%;
+    background-color: rgb(7, 7, 74);
+}
+
+.row2::after
+{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#navigator
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    background-color: rgb(50, 77, 189);
+}
+
+a
+{
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: rgb(7, 7, 124);
+    color: white;
+}
+
+
+h3
+{
+    font-size: 28px;
+    color: rgb(11, 6, 80);
+    text-align: center;
+    padding: 5px;
+}
+
+ /* admin login */
+
+ * {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    
+    
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: .6;
+    margin: 0;
+    padding: 0
+}
+/* form styling */
+.mockup-form {
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    padding: 40px 40px;
+}
+
+.container {
+    max-width: 890px;
+    margin: 0 auto;
+}
+
+.form {
+    padding: 0px;
+    flex-basis: 50%;
+    -webkit-flex-basis: 50%;
+    background: #0821db60;
+    padding: 100px 50px;
+    border-top-left-radius: 120px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-wthree {
+    flex-basis: 60%;
+    -webkit-flex-basis: 60%;
+    box-sizing: border-box;
+    padding: 3em 3.5em;
+    background: rgb(255, 255, 255);
+    box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 120px;
+}
+
+
+
+.mockup-form .main-mockup {
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 40px 0;
+}
+
+
+.mockup-form form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.mockup-form h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #3b3663;
+}
+
+.mockup-form h2 {
+    display: inline-block;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #3b3663;
+}
+
+.mockup-form input {
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #999;
+    text-align: left;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    
+    border: 1px solid #e5e5e5;
+    transition: 0.3s all ease;
+}
+
+.mockup-form input:focus {
+    border-color: #ff0000;
+}
+
+/* product page*/
+:root{
+   --green:#405ed3;
+   --black:#333;
+   --white:#fff;
+   --bg-color:#eee;
+   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+   --border:.1rem solid var(--black);
+   
+}
+
+
+
+.btn{
+   display: block;
+   width: 100%;
+   cursor: pointer;
+   border-radius: .5rem;
+   margin-top: 1rem;
+   font-size: 1.7rem;
+   padding:1rem 3rem;
+   background: var(--green);
+   color:var(--white);
+   text-align: center;
+}
+
+.btn:hover{
+   background-color: #1e00ff;
+   
+}
+
+.message{
+   display: list-item;
+   background-color: rgb(136, 137, 225);
+   padding:1rem 1rem;
+   font-size: 1rem;
+   color:var(--black);
+   margin-bottom: 2rem;
+   text-align: center;
+   
+}
+
+.container{
+   max-width: 1200px;
+   padding:2rem;
+   margin:0 auto;
+
+   
+}
+
+.admin-product-form-container.centered{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh;
+   
+   
+}
+
+.admin-product-form-container form{
+   max-width: 50rem;
+   margin:0 auto;
+   padding:2rem;
+   border-radius: .5rem;
+   background-color: rgb(136, 137, 225);
+   
+}
+
+*
+
+.admin-product-form-container form .box{
+   width: 100%;
+   border-radius: .5rem;
+   padding:1.2rem 1.5rem;
+   font-size: 1.7rem;
+   margin:1rem 0;
+   background: var(--white);
+   text-transform: none;
+
+   
+}
+
+.product-display{
+   margin:2rem 0;
+   
+}
+
+.product-display .product-display-table{
+   width: 100%;
+   text-align: center;
+}
+
+.product-display .product-display-table thead{
+   background: var(--bg-color);
+}
+
+.product-display .product-display-table th{
+   padding:1rem;
+   font-size: 2rem;
+}
+
+
+.product-display .product-display-table td{
+   padding:1rem;
+   font-size: 2rem;
+   border-bottom: var(--border);
+}
+
+.product-display .product-display-table .btn:first-child{
+   margin-top: 0;
+}
+
+.product-display .product-display-table .btn:last-child{
+   background: crimson;
+}
+
+.product-display .product-display-table .btn:last-child:hover{
+   background: var(--black);
+}
+
+
+.column 
+{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 200px;
+    background-color: #020210;
+      /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column h2
+{
+    font-family: "Times New Roman", Times, serif;
+    color: #FFFFFF;
+    align-items: center;
+}
+.column h5
+{
+    color: #FFFFFF;
+}
+  /*social media icons */
+.fa 
+{
+    padding: 20px;
+    font-size: 25px;
+    width: 10px;
+    height:10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+}
+.fa:hover 
+{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+  
+.fa-facebook 
+{
+    background: #000000;
+    color: white;
+}
+  
+.fa-twitter 
+{
+    background: #000000;
+    color: white;
+}
+  
+.fa-google 
+{
+    background: #000000;
+    color: white;
+}
+.fa-instagram 
+{
+    background: #000000;
+    color: white;
+}
+
+* 
+{
+    box-sizing: border-box;
+}
+
+
+
+
+

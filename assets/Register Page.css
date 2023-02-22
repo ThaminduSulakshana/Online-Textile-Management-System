@@ -1,0 +1,212 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(181, 182, 227);
+}
+
+#logo
+{
+    display: block;
+    margin-left: 0px;
+    height: 3cm;
+    width: 3cm;
+}
+
+.header
+{
+    background-color: rgb(7, 7, 74);
+    overflow: hidden;
+    height: 200px;
+}
+
+.column2
+{
+    float: left;
+    padding: 30px;
+    height: 100px;
+    width: 33.33%;
+    background-color: rgb(7, 7, 74);
+}
+
+.row2::after
+{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#navigator
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    background-color: rgb(50, 77, 189);
+}
+
+a
+{
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: rgb(7, 7, 124);
+    color: white;
+}
+
+input[type=text], textarea,input[type=email],input[type=tel],input[type=password]
+{
+    width: 100%;
+    margin: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+}
+input[type=radio],input[type=date],input[type=checkbox]
+{
+    margin: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-weight: bold;
+}
+
+label
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: Georgia, serif;
+    font-weight: bold;
+
+}
+
+input[type=submit]
+{
+    background-color: rgb(50, 77, 189);
+    color: bisque;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover
+{
+    background-color: rgb(7, 7, 124);
+}
+
+.container
+{
+    margin: auto;
+    width: 50%;
+    background-color: rgb(131, 150, 225);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+
+
+h3
+{
+    font-size: 28px;
+    color: rgb(11, 6, 80);
+    text-align: center;
+    padding: 5px;
+}
+
+.column 
+{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 200px;
+    background-color: rgb(7, 7, 74);
+      /* Should be removed. Only for demonstration */
+}
+  
+  /* Clear floats after the columns */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column h2
+{
+    font-family: "Times New Roman", Times, serif;
+    color: #FFFFFF;
+    align-items: center;
+}
+.column h5
+{
+    color: #FFFFFF;
+}
+  /*social media icons */
+.fa 
+{
+    padding: 20px;
+    font-size: 25px;
+    width: 10px;
+    height:10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 1px;
+}
+.fa:hover 
+{
+    background-color: #FFFFFF;
+    color: rgb(7, 7, 74);
+}
+  
+.fa-facebook 
+{
+    background: rgb(7, 7, 74);
+    color: white;
+}
+  
+.fa-twitter 
+{
+    background-color: rgb(7, 7, 74);
+    color: white;
+}
+  
+.fa-google 
+{
+    background: rgb(7, 7, 74);
+    color: white;
+}
+.fa-instagram 
+{
+    background: rgb(7, 7, 74);
+    color: white;
+}

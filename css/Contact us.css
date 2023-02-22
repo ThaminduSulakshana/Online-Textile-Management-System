@@ -1,0 +1,158 @@
+body
+{
+    background-color: rgb(181, 207, 227);
+}
+
+#logo
+{
+    display: block;
+    margin-left: 0px;
+    height: 3cm;
+    width: 3cm;
+}
+
+.header
+{
+    background-color: rgb(7, 7, 74);
+    overflow: hidden;
+}
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#navigator
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    background-color: rgb(50, 77, 189);
+}
+
+a
+{
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: rgb(7, 7, 124);
+    color: white;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  .column 
+  {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      height: 200px;
+      background-color: #020210;
+        /* Should be removed. Only for demonstration */
+  }
+    
+    /* Clear floats after the columns */
+  .row:after 
+  {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  .column h2
+  {
+      font-family: "Times New Roman", Times, serif;
+      color: #FFFFFF;
+      align-items: center;
+  }
+  .column h5
+  {
+      color: #FFFFFF;
+  }
+    /*social media icons */
+  .fa 
+  {
+      padding: 20px;
+      font-size: 25px;
+      width: 10px;
+      height:10px;
+      text-align: center;
+      text-decoration: none;
+      margin: 3px 1px;
+  }
+  .fa:hover 
+  {
+      background-color: #FFFFFF;
+      color: #000000;
+  }
+    
+  .fa-facebook 
+  {
+      background: #000000;
+      color: white;
+  }
+    
+  .fa-twitter 
+  {
+      background: #000000;
+      color: white;
+  }
+    
+  .fa-google 
+  {
+      background: #000000;
+      color: white;
+  }
+  .fa-instagram 
+  {
+      background: #000000;
+      color: white;
+  }
+.fa-user-circle
+{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+  .fa-user-circle:hover
+  {
+      background-color: rgb(7, 7, 124);
+      color: white;
+  }
+
+  .contact
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 35%;
+    margin-right: 30%;
+    text-align: center;
+    width: 30%;
+    border: 2px solid rgb(0, 30, 128);
+    padding: 10px;
+    
+  }
+
+  .contact_details
+  {
+      
+  }

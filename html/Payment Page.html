@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Payment Details</title>
+    <meta charset="uth-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Payment Page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <img id="logo" src="Logo.png" alt="This is the Company Logo">
+      <h1>Fashion Lanka Clothing Store</h1>
+    </div>
+        
+    <ul id="navigator">
+      <li><a href="Home Page.html">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Shopping Cart</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li style="float: right;"><a href="cart.php">My profile</a></li>
+      <li style="float: right;"><a href="#" class="fa fa-user-circle"></a></li>
+    </ul>
+
+    <!-- delivery details and payment -->
+
+    <div class="box1">
+
+      <div class="col-75">
+
+        <div class="container">
+
+          <form action="payment.php" method="post">
+
+            <div class="box1">
+              
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="K S M Senarathne">
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input type="text" id="email" name="email" placeholder="senarathne@example.com">
+                <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                <input type="text" id="adr" name="address" placeholder="542, Ridi Mawatha, Pitipana North">
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input type="text" id="city" name="city" placeholder="Homagama">
+        
+                <div class="box1">
+                  <div class="col-50">
+                    <label for="District">District</label>
+                    <input type="text" id="District" name="District" placeholder="Colombo">
+                  </div>
+                  
+                  <div class="col-50">
+                    <label for="zip">Zip</label>
+                    <input type="text" id="zip" name="zip" placeholder="10200">
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-50">
+                <h3>Payment</h3>
+                <label for="fname">Accepted Cards</label>
+                
+                <div class="icon-container">
+                  <i class="fa fa-cc-visa" style="color:navy;"></i>
+                  <i class="fa fa-cc-amex" style="color:blue;"></i>
+                  <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                  <i class="fa fa-cc-discover" style="color:orange;"></i>
+                </div>
+                      
+                <label for="cname">Name on Card</label>
+                <input type="text" id="cname" name="cardname" placeholder="K S M Senarathne">
+                <label for="ccnum">Credit card number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                <label for="expmonth">Exp Month</label>
+                <input type="text" id="expmonth" name="expmonth" placeholder="03">
+          
+                <div class="box1">
+                  <div class="col-50">
+                    <label for="expyear">Exp Year</label>
+                    <input type="text" id="expyear" name="expyear" placeholder="2025">
+                  </div>
+                
+                  <div class="col-50">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="999">
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            <label>
+              <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+            </label>
+              <input type="submit" value="Pay Now" class="btn">
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+    <footer>
+              
+      <div class="row">
+        <div class="column">
+          <ul>  
+            <h2><b>Help</b></h2>
+            <h5><div>FAQ</div>
+            
+            <div>Return policy</div>
+            <div>Payments</div></h5>
+          </ul>
+        </div>
+               
+        <div class="column">
+          <ul>
+            <h2><b>Opening Hours</b></h2>
+            <h5><div>Everyday : 9.00am -9.00p.m</div>
+            </h5>
+          </ul>
+        </div>
+        
+        <div class="column">
+          <ul>
+            <h2><b>Contact Us</b></h2>
+            <h5><div>Telephone: +94714556766 </div>
+              <div>E-mail: fashionlanka@gmail.com</div>
+              <div>Address: 35/D ,Kandy Road, Malabe</div></h5>
+          </ul>
+        </div>
+        
+        <div class="column">
+          <h2><b>Social Media Links</b></h2>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-google"></a>
+        </div>
+      </div>
+
+    </footer>
+  
+  </body>
+  
+</html>

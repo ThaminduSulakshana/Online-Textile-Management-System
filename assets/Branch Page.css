@@ -1,0 +1,173 @@
+body
+{
+    background-color: rgb(181, 207, 227);
+}
+
+#logo
+{
+    display: block;
+    margin-left: 0px;
+    height: 3cm;
+    width: 3cm;
+}
+
+.header
+{
+    background-color: rgb(7, 7, 74);
+    overflow: hidden;
+    height: 200px;
+}
+
+.column2 
+{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+    height: 100px;
+    background-color:rgb(7, 7, 74);  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row2:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+    text-align: center;
+    padding: 5px;
+}
+
+
+#navigator
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    background-color: rgb(50, 77, 189);
+}
+
+a
+{
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: rgb(7, 7, 124);
+    color: white;
+}
+
+/*Organizing the branch list*/
+.column3
+{
+    float: left;
+    width: 33.33%;
+    padding : 10px;
+    height: 175px;
+    background-color: #072e69;
+    color: aliceblue;
+    border: 2px solid white;
+}
+
+
+/*CSS for Footer*/
+* {
+    box-sizing: border-box;
+  }
+
+  .column 
+  {
+      float: left;
+      width: 20%;
+      padding: 10px;
+      height: 200px;
+      background-color: rgb(7, 7, 74);
+        /* Should be removed. Only for demonstration */
+  }
+    
+    /* Clear floats after the columns */
+  .row:after 
+  {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  .column h2
+  {
+      font-family: "Times New Roman", Times, serif;
+      color: #FFFFFF;
+      align-items: center;
+  }
+  .column h5
+  {
+      color: #FFFFFF;
+  }
+    /*social media icons */
+  .fa 
+  {
+      padding: 20px;
+      font-size: 25px;
+      width: 10px;
+      height:10px;
+      text-align: center;
+      text-decoration: none;
+      margin: 3px 1px;
+  }
+  .fa:hover 
+  {
+      background-color: #FFFFFF;
+      color: #000000;
+  }
+    
+  .fa-facebook 
+  {
+      background: rgb(7, 7, 74);
+      color: white;
+  }
+    
+  .fa-twitter 
+  {
+      background: rgb(7, 7, 74);
+      color: white;
+  }
+    
+  .fa-google 
+  {
+      background: rgb(7, 7, 74);
+      color: white;
+  }
+  .fa-instagram 
+  {
+      background: rgb(7, 7, 74);
+      color: white;
+  }
+.fa-user-circle
+{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+  .fa-user-circle:hover
+  {
+      background-color: rgb(7, 7, 124);
+      color: white;
+  }

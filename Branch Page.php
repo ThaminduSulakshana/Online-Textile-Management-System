@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fashion Lanka Clothing Store</title>
+        <meta charset="uth-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Branch Page.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="row2">
+                <div class="column2">
+                    <img id="logo" src="Logo.png" alt="This is the Company Logo">
+                </div>
+
+                <div class="column2">
+                    <div class="title"><h1>Fashion Lanka Clothing Store</h1></div>
+                </div>
+            </div>
+        </div>
+        
+        <ul id="navigator">
+            <li><a href="Home Page.php">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="Branch Page.html">Branches</a></li>
+            <li style="float: right;"><a href="Register Page.html">Register</a></li>
+            <li style="float: right;"><a href="Login Page.html">Login</a></li>
+        </ul>
+        
+		<div class="row3">
+            <div class="column3">
+                <ul>
+                    <h2><b>Head Branch - Malabe</b></h2>
+                    <h3><div>Telephone: +94213463788 </div>
+                    <div>E-mail: fashionlanka@gmail.com</div>
+                    <div>Address: 35/D ,Kandy Road, Malabe</div></h3>
+                </ul>
+            </div>
+
+            
+
+            <div class="column3">
+                <ul>
+                    <h2><b>Kadawatha Branch</b></h2>
+                    <h3><div>Telephone: +94714556766 </div>
+                    <div>E-mail: fashionlanka@gmail.com</div>
+                    <div>Address: 35/D ,Kandy Road, Malabe</div></h3>
+                </ul>
+            </div>
+            <div class="column3">
+                <ul>
+                    <h2><b>Ja-Ela Branch</b></h2>
+                    <h3><div>Telephone: +94112454487 </div>
+                    <div>E-mail: fashionlanka@gmail.com</div>
+                    <div>Address: 35/D ,Kandy Road, Malabe</div></h3>
+                </ul>
+            </div>
+        </div>
+
+        
+            <footer>
+            <div class="row">
+                <div class="column">
+                <ul>  
+                    <h2><b>Help</b></h2>
+                    <h5><div>FAQ</div>
+                    <div>Return policy</div>
+                    <div>Payments</div></h5>			
+                </ul>
+             </div>
+
+             <div class="column">
+                <ul>  
+                    <h2><b></b></h2>
+                    <h5><div>Telephone: +94714556766 </div>
+                    <div>E-mail: fashionlanka@gmail.com</div>
+                    <div>Address: 35/D ,Kandy Road, Malabe</div></h5>
+                                   
+                </ul>
+             </div>
+
+             <div class="column">
+                <h2><b>Social Media Links</b></h2>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-google"></a>
+              </div>
+
+             <div class="column">
+                <ul>  
+                    <h2><b>Opening Hours</b></h2>
+                    <h5><div>Everyday : 9.00am -9.00p.m</div>
+                    </h5>
+                </ul>
+             </div>
+             <div class="column">
+                <ul>  
+                    <h2><b>Contact Us</b></h2>
+                    <h5><div>Telephone: +94714556766 </div>
+                    <div>E-mail: fashionlanka@gmail.com</div>
+                    <div>Address: 35/D ,Kandy Road, Malabe</div></h5>
+                                   
+                </ul>
+             </div>
+           </div>
+        </footer>
+
+    </body>
+</html>

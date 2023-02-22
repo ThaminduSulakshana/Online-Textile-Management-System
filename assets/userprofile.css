@@ -1,0 +1,151 @@
+
+.bodyDiv{
+	background-color: white;
+	padding-bottom: 5%;
+	padding-top: 4%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	box-shadow: 0px 0px 10px 0.1px black;
+}
+
+
+
+.userProfileColumn1{
+	width: 60%;
+	/*background-color: blue;*/
+	float: left;
+	border-right: 1px solid grey;
+}
+
+.userProfileColumn2{
+	width: 39%;
+	/*background-color: green;*/
+	float: left;
+}
+
+.profileInnerDiv1{
+	float: left;
+	/*background-color: red;*/
+	width: 35%;
+	margin-left: 10%;
+	border: 1px solid orange;
+	border-radius: 10px;
+}
+
+.profileInnerDiv2{
+	/*background-color: orange;*/
+	width: 50%;
+	margin-left: 45%;
+	padding-left: 5%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.userImage{
+	width: 200px;
+	height: 200px;
+	border: 1px solid grey;
+	border-radius: 100px;
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	object-fit: cover;
+}
+
+.userProfileAnchors{
+	width: 50%;
+	margin-bottom: 2%;
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: transparent;
+	color: black;
+	display: block;
+	border: 1px solid orange;
+	border-radius: 10px;
+	transition: background-color;
+	transition-duration: 0.4s;
+}
+
+.userProfileAnchors:hover{
+	background-color: orange;
+	box-shadow: 1px 1px 10px 1px grey;
+}
+
+.profileInnerRow2{
+	padding: 8px 16px;
+	text-align: justify;
+}
+
+.userProfileValues{
+	font-size: 110%;
+	color: #8c410b;
+	font-weight: bold;
+}
+
+.myAds{
+	display: block;
+	padding: 8px 16px;
+	width: 87%;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-bottom: 1px solid grey;
+	font-weight: bold;
+	font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column_one {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.column_two {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  padding-top: 50px; /* Should be removed. Only for demonstration */
+}
+
+.column_two p{
+
+  padding-top: 20px;
+
+
+}
+
+
+/* Clear floats after the columns */
+.row_one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#addFeedbackButton, #viewReviews, .submitButtons{
+	outline: none;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	padding: 8px 16px;
+	border: 2px solid orange;
+	border-radius: 10px;
+	background-color: transparent;
+	font-weight: bold;
+	transition: background-color;
+	transition-duration: 0.4s;
+	float: left;
+}
+
+#addFeedbackButton:hover, #viewReviews:hover, .submitButtons:hover{
+	background-color: orange;
+	cursor: pointer;
+}

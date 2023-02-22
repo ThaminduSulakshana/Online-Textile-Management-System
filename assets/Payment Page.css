@@ -1,0 +1,222 @@
+body
+{
+    background-color: rgb(181, 207, 227);
+}
+
+#logo
+{
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 3cm;
+    width: 3cm;
+}
+
+.header
+{
+    background-color: rgb(7, 7, 74);
+    overflow: hidden;
+}
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+    text-align: center;
+    padding: 5px;
+}
+
+#navigator
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    background-color: rgb(50, 77, 189);
+}
+a
+{
+    float: left;
+    font-size: larger;
+    color: azure;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover
+{
+    background-color: rgb(7, 7, 124);
+    color: white;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+
+/* Payment */
+
+
+
+.box1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  flex: 75%;
+}
+
+.col-50,
+.col-75 {
+  padding: 50px 16px;
+}
+
+.container {
+  background-color: #f5fbff;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid rgb(12, 86, 184);
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+
+
+
+/* Foot */
+
+
+
+.column 
+  {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      height: 200px;
+      background-color: #020210;
+        /* Should be removed. Only for demonstration */
+  }
+    
+    /* Clear floats after the columns */
+  .row:after 
+  {
+      content: "";
+      display: table;
+      clear: both;
+  }
+  .column h2
+  {
+      font-family: "Times New Roman", Times, serif;
+      color: #FFFFFF;
+      align-items: center;
+  }
+  .column h5
+  {
+      color: #FFFFFF;
+  }
+    /*social media icons */
+  .fa 
+  {
+      padding: 20px;
+      font-size: 25px;
+      width: 10px;
+      height:10px;
+      text-align: center;
+      text-decoration: none;
+      margin: 3px 1px;
+  }
+  .fa:hover 
+  {
+      background-color: #FFFFFF;
+      color: #000000;
+  }
+    
+  .fa-facebook 
+  {
+      background: #000000;
+      color: white;
+  }
+    
+  .fa-twitter 
+  {
+      background: #000000;
+      color: white;
+  }
+    
+  .fa-google 
+  {
+      background: #000000;
+      color: white;
+  }
+  .fa-instagram 
+  {
+      background: #000000;
+      color: white;
+  }
+.fa-user-circle
+{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+  .fa-user-circle:hover
+  {
+      background-color: rgb(7, 7, 124);
+      color: white;
+  }
+  
